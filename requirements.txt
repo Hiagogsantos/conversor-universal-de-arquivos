@@ -1,0 +1,22 @@
+# ── Interface gráfica ──────────────────────────────────────────────────────────
+PySide6>=6.6.0
+
+# ── Conversão de imagens ───────────────────────────────────────────────────────
+Pillow>=10.0.0
+
+# ── Conversão de documentos ────────────────────────────────────────────────────
+pypdf>=4.0.0            # PDF → TXT
+pdf2docx>=0.5.8         # PDF → DOCX
+python-docx>=1.1.0      # DOCX ↔ TXT, DOCX → PDF
+reportlab>=4.0.0        # TXT → PDF, CSV → PDF
+openpyxl>=3.1.0         # XLSX ↔ CSV, CSV → XLSX
+xlrd>=2.0.1             # XLS → XLSX / CSV  (apenas .xls legado)
+ebooklib>=0.18          # EPUB → TXT
+striprtf>=0.0.26        # RTF → TXT
+
+# ── Compactados (opcionais, não embutidos no .exe base) ───────────────────────
+py7zr>=0.21.0           # .7z
+rarfile>=4.1            # .rar  (requer unrar no PATH)
+
+# ── Build / empacotamento ─────────────────────────────────────────────────────
+pyinstaller>=6.0.0

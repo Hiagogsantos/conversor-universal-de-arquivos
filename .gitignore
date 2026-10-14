@@ -1,2 +1,27 @@
-# Google App Engine generated folder
-appengine-generated/
+# ===== Dados de alunos e segredos: NUNCA enviar para o GitHub =====
+*.db
+*.sqlite
+*.sqlite3
+*.xlsx
+*.xls
+*.csv
+credenciais*.json
+credentials*.json
+token*.json
+planilhas.json
+config.json
+*.log
+
+# ===== Arquivos gerados =====
+__pycache__/
+*.pyc
+build/
+dist/
+venv/
+.venv/
+*.exe
+~$*
+
+# O FFmpeg é baixado pelo build.py, não fica no repositório
+ffmpeg*
+!*.spec
